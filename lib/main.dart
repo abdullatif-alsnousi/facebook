@@ -3,10 +3,12 @@ import 'package:flutter/material.dart';
 import 'package:facebook/pages/home_page.dart';
 
 void main() {
-  runApp(DevicePreview(
-    enabled: true,
-    builder: (context) => const MyApp(),
-  ));
+  runApp(
+    DevicePreview(
+      enabled: true,
+      builder: (context) => const MyApp(),
+    ),
+  );
 }
 
 class MyApp extends StatelessWidget {
