@@ -27,10 +27,15 @@ class TopBar extends StatelessWidget {
             ),
           ),
           const SizedBox(width: 20),
-          Icon(
-            Icons.camera_alt,
-            color: Colors.grey[800],
-            size: 30,
+          IconButton(
+            onPressed: () {
+              // write your code open camera here
+            },
+            icon: Icon(
+              Icons.camera_alt,
+              color: Colors.grey[800],
+              size: 30,
+            ),
           ),
         ],
       ),
